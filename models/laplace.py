@@ -9,7 +9,8 @@ from laplace import Laplace
 from torch import Tensor
 
 from .model import Model
-from .utils import RegNet, get_best_hyperparameters
+from .utils import RegNet
+# , get_best_hyperparameters
 
 
 class LaplacePosterior(Posterior):

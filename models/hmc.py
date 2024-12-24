@@ -14,7 +14,8 @@ from .model import Model
 from .utils import (RegNet, make_gaussian_log_likelihood,
                     make_gaussian_log_likelihood_fixed_noise,
                     make_gaussian_log_prior,
-                    get_best_hyperparameters)
+                    # get_best_hyperparameters
+                    )
 
 
 class HMCPosterior(Posterior):

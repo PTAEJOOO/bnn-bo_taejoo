@@ -4,3 +4,6 @@ build
 
 bnn_params
 experiment_results
+
+pybnn/
+pybnn_/

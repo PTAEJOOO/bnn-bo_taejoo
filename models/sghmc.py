@@ -10,7 +10,8 @@ from torch import Tensor
 from pybnn.bohamiann import Bohamiann
 from pybnn.util.layers import AppendLayer
 
-from .utils import RegNet, get_best_hyperparameters
+from .utils import RegNet
+# , get_best_hyperparameters
 
 
 class SGHMCPosterior(Posterior):
